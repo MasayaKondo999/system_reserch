@@ -13,6 +13,6 @@ api = tweepy.API(auth)
 
 
 
-for tweet in tweepy.Cursor(api.search, q='スマブラ').items(100):
+for tweet in tweepy.Cursor(api.search, q='k').items(100):
     print(tweet)
 
